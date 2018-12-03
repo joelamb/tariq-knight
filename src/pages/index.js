@@ -1,13 +1,35 @@
 import React from 'react';
+import { graphql } from 'gatsby';
 
 import Layout from '../components/layout';
-import Section from '../components/section';
+import PageSection from '../components/pageSection';
 
-const IndexPage = () => (
-  <Layout>
-    <Section sectionTitle="intro" />
-    <Section sectionTitle="tv" />
-  </Layout>
-)
+const IndexPage = ({
+  data: {
+    allMarkdownRemark: { edges },
+  },
+}) => {
+  const sections = edges.map(edge => <PageSection content={edge.node} />);
+  return (
+    <Layout>
+      {sections}
+    </Layout >
+  );
+}
 
 export default IndexPage;
+
+export const pageQuery = graphql`
+query {
+    allMarkdownRemark(sort: { order: ASC, fields: [frontmatter___order] }) {
+      edges {
+        node {
+          frontmatter{
+            title
+          }
+          html
+        }
+      }
+    }
+  }
+`
