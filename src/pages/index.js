@@ -9,7 +9,7 @@ const IndexPage = ({
     allMarkdownRemark: { edges },
   },
 }) => {
-  const sections = edges.map(edge => <PageSection content={edge.node} />);
+  const sections = edges.map(edge => <PageSection key={edge.node.id} content={edge.node} />);
   return (
     <Layout>
       {sections}
@@ -24,6 +24,7 @@ query {
     allMarkdownRemark(sort: { order: ASC, fields: [frontmatter___order] }) {
       edges {
         node {
+          id
           frontmatter{
             title
           }

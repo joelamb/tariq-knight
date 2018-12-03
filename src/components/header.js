@@ -1,33 +1,40 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from 'react';
+import { Link } from 'gatsby';
+import styled from 'styled-components';
 
-const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </div>
-)
+
+const Header = ({ siteTitle }) => {
+  const Container = styled.div`
+    background: rebeccapurple;
+    margin-bottom: 1.45rem; 
+  `
+  const Inner = styled.div`
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 1.45rem 1.0875rem;
+  `
+
+  const Title = styled.h1`
+    margin: 0rem;
+  `
+
+  return (
+    <Container>
+      <Inner>
+        <Title>
+          <Link
+            to="/"
+            style={{
+              color: 'white',
+              textDecoration: 'none',
+            }}
+          >
+            {siteTitle}
+          </Link>
+        </Title>
+      </Inner>
+    </Container>
+  );
+}
 
 export default Header
