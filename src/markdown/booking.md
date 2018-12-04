@@ -2,16 +2,16 @@
 order: "3"
 path: "booking"
 date: "2018-12-03"
-title: "Book a magician for any function, trade show, or stage show"
+title: "Book Tariq for your event"
 attachments: 
  -  "../images/tariq_intro.jpg"
 ---
 
 ### Tariq’s magic
 
-Close-up magic is perfect for any function. Mix-and-mingle or magic while guests are seated for dinner are great ways to get people socialising with one another and to impressively entertain guests. Tariq’s cloe up magic is like no other. Combing psychological techniques, mind-reading, and adept sleight of hand which you can scrutinise to your heart’s content, you will be left wondering just how he read your mind, floated you personal possessions, and even gave you back the watch you thought you were wearing!
+Close-up magic is perfect for any function. Mix-and-mingle or magic while guests are seated for dinner are great ways to get people socialising with one another and to impressively entertain guests. Tariq’s close up magic is like no other. Combing psychological techniques, mind-reading, and adept sleight of hand which you can scrutinise to your heart’s content, you will be left wondering just how he read your mind, floated you personal possessions, and even gave you back the watch you thought you were wearing!
 
-### TariqTrade Shows
+### Trade Shows
 
 Grabbing people’s attention is a tricky thing to do, especially if you have just seconds to accomplish it. If you would like your company to stand out from the crowd, Tariq can draw a multitude of potential clients to your stand. He will amuse, entertain, get your message across, before introducing your service in a genial, but professional, fashion.
 
@@ -31,4 +31,4 @@ Similar to his BBC 1 show, Tariq, with the help of his magic buddy Nick Crown, t
 
 See the secrets behind magic: misdirection, hand eye-coordination, and most importantly learn real magic tricks that will never leave you stumped for an ice-breaker again.
 
-For more information, please don’t hesitate to get in touch.
+For more information, please don’t hesitate to [get in touch](info@tariqknight.com).

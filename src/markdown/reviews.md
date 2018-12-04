@@ -1,8 +1,8 @@
 ---
 order: "5"
-path: "quotes"
+path: "reviews"
 date: "2018-12-03"
-title: "What people are saying about Tariq"
+title: "Reviews"
 attachments: 
  -  "../images/tariq_quotes.jpg"
 ---
@@ -15,9 +15,6 @@ attachments:
 
 > “Tariq is a vivacious character and his magic will be something that will be discussed by all who see him… he is exhilarating”  
 — Eric Sykes (comedy legend)
-
-> “Stop Following me… leave me alone”  
-— Kelly Brook (television presenter)
 
 > “Keep your eye on Tariq, he will go very far”  
 — DVD reviewer
