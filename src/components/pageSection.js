@@ -3,10 +3,10 @@ import styled from 'styled-components';
 
 const SectionHeroImage = styled.div`
   background-image: url(${props => `.${props.bgImage}`});
-  background-size: cover;
   background-position: 50% 0%;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   height: 75vh;
   margin-bottom: 2rem;
@@ -23,6 +23,12 @@ const SectionHeroImage = styled.div`
   }
   h3{
     color: white;
+  }
+  @media (min-width: 400px){
+    background-attachment: fixed;
+    h2{
+      max-width: 620px;
+    }
   }
 `
 
