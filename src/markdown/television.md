@@ -1,6 +1,6 @@
 ---
 order: "2"
-path: "tv"
+path: "television"
 date: "2018-12-03"
 title: "Tariq on Television"
 attachments: 

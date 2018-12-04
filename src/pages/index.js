@@ -9,7 +9,7 @@ const IndexPage = ({
     allMarkdownRemark: { edges },
   },
 }) => {
-  const sections = edges.filter(edge => edge.node.frontmatter.path !== "dvd").map(edge => <PageSection key={edge.node.id} content={edge.node} />);
+  const sections = edges.map(edge => <PageSection key={edge.node.id} content={edge.node} />);
   return (
     <Layout>
       {sections}
