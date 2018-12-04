@@ -3,6 +3,8 @@ order: "4"
 path: "dvd"
 date: "2018-12-03"
 title: "Sick Tricks DVD"
+attachments: 
+ -  "../images/tariq_intro.jpg"
 ---
 
 _‘Tariq Knight’s Sick Tricks’_ is the first DVD to be sold across the UK and Ireland which, from the comfort of your own living room, teaches you how to perform… well, Sick Tricks.

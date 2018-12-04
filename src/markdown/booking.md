@@ -3,6 +3,8 @@ order: "3"
 path: "booking"
 date: "2018-12-03"
 title: "Book a magician for any function, trade show, or stage show"
+attachments: 
+ -  "../images/tariq_intro.jpg"
 ---
 
 ### Tariq’s magic

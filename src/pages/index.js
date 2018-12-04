@@ -26,7 +26,12 @@ query {
         node {
           id
           frontmatter{
+            path
+            order
             title
+            attachments {
+              publicURL
+            }
           }
           html
         }

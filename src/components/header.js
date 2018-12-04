@@ -6,7 +6,6 @@ import styled from 'styled-components';
 const Header = ({ siteTitle }) => {
   const Container = styled.div`
     background: rebeccapurple;
-    margin-bottom: 1.45rem; 
   `
   const Inner = styled.div`
     margin: 0 auto;

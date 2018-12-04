@@ -3,6 +3,8 @@ order: "5"
 path: "quotes"
 date: "2018-12-03"
 title: "What people are saying about Tariq"
+attachments: 
+ -  "../images/tariq_quotes.jpg"
 ---
 
 > “It amazes me, I’ve not got a clue how you do it”  
