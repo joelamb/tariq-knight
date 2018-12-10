@@ -36,20 +36,25 @@ const SectionBody = styled.div`
   margin: 0 auto 4rem auto;
   max-width: 620px;
   padding: 0 1rem;
-  img{
-    border: 8px solid white;
-    box-shadow: 1px 1px 8px rgba(0,0,0,0.55);
-    display: block;
-    margin: 2rem auto;
-    transform: rotate(0.0125turn);
-    width: 60%;
+  h3{
+    justify-content: flex-start;
+  }
+  a.gatsby-resp-image-link{
+    display: inline-block;
+    margin: 0;
+    width: 5rem;
   }
   a {
     color: rebeccapurple;
     font-family: Sans-serif;
-    // font-weight: 700;
     text-decoration:none;
-
+  }
+  blockquote{
+    font-family: Georgia, serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 300;
+    margin-left: 0;
   }
 `
 

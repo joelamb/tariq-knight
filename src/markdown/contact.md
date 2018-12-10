@@ -7,8 +7,6 @@ attachments:
  -  "../images/tariq_contact.jpg"
 ---
 
-If you would like to drop Tariq an email, regarding further information or bookings please send all inquires to [info@tariqknight.com](mailto:info@tariqknight.com)
+If you would like to drop Tariq an email, regarding further information or bookings please send all enquiries to [info@tariqknight.com](mailto:info@tariqknight.com)
 
 Follow Tariq on [Instagram](https://www.instagram.com/tariqknight/).
-
-If you have any further comments no matter how rude, crude or funny, please send them to Tariq at [letsannoytariqtogether@tariqknight.com](mailto:letsannoytariqtogether@tariqknight.com).
